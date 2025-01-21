@@ -1,12 +1,188 @@
-h2 {
-    color:red;
+body {
+    font-size: 2vw;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 4fr 7fr 4fr;
+
+    border-bottom: solid gray 0.1px;
+    
+    /*
+    height: 30px; 
+    */
+    height: 6vw;
+    min-height: 6vw;
+
+    margin-bottom: 2vw;
+}
+
+#top img {
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 100%;
+
+    object-fit: contain;
+}
+
+#top input {
+    height: 70%;
+    width: 80%;
+    
+    margin: auto;
+    
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    
+    border: solid gray 1px;
+    border-radius: 3px;
+    
+    /*
+    font-size: 20px;
+    */
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+i {
+    color: gray;
+}
+
+#top i {
+    /*
+    font-size: 28px;
+    */
+    font-size: 4vw;
+}
+
+#top div {
+    text-align: center;
+    padding-top: 1vw;
+}
+
+#profile {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+}
+
+#profile_pic {
+    /*
+    width: 100px;
+    height: 100px;
+    */
+    width: 15vw;
+    height: 15vw;
+
+    margin: auto;
+}
+
+#profile_info {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    /*
+    height: 100px;
+    */
+    height: 15vw;
+}
+
+#id {
+    /*
+    font-size: 30px;
+    */
+    font-size: 5vw;
+    font-weight: 100;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#profile_info button {
+    font-size: 2.5vw;
+}
+
+#id i {
+    font-size: 4vw;
+}
+
+#stat_bar {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.stat {
+    text-align:center;
+}
+
+.circle_pic {
+    border: solid white 1px;
+    border-radius: 50%; 
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#highlight_area {
+    display:grid;
+    /*
+    grid-template-columns: 60px 60px 1fr; 
+    */
+    grid-template-columns: 12vw 12vw 1fr;
 }
 
 .highlight {
     border:solid;
+    border-color:white;
 }
 
-#profile {
-    border:solid;
-    color:blue;
+.highlight_pic {
+    /*
+    width:50px;
+    height:50px;
+    */
+    width: 8vw;
+    height: 8vw;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.highlight {
+    text-align:center;
+}
+
+button {
+    height: 90%;
+    width: 99%;
+    margin: auto;
+
+    /*
+    font-size: 20px;
+    */
+    font-size: 3vw;
+
+    background-color: white;
+    border: solid gray 2px;
+    border-radius: 3px;
+}
+
+#sub_icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    text-align: center;
+    font-size: 5vw;
+
+    height: 8vw;
+}
+
+#sub_icons i {
+    margin-top: auto;
+    margin-bottom: auto;
 }
