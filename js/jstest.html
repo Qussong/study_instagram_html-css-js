@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    <script>
+        function red() {
+            let button = document.querySelector("#test input")
+            button.style.backgroundColor = "red"
+        }
+        
+    </script>
+    <div id="test">
+        <input type="button" value="Button" onClick="red()"/>
+    </div>
+    -->
+    
+    <input id="Hello"/>
+    <script>
+        let button = document.querySelector("#Hello")
+        button.addEventListener("input",
+            function(e) {
+                console.log(e.target.value)
+            }
+        )
+    </script>
+    
+</body>
+</html>
